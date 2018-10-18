@@ -50,3 +50,9 @@
         transform: scale(1);
     }
 }
+
+.Price{
+  box-shadow: 2px 2px 2px #b5b5b5;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+}
