@@ -1,6 +1,7 @@
 .Burger{
   width: 100%;
   margin: auto;
+  margin-top: 100px;
   height: 250px;
   overflow: scroll;
   text-align: center;
@@ -31,4 +32,9 @@
     width: 450px;
     height: 400px;
   }
+}
+
+
+.Title{
+  margin-bottom: 100px;
 }

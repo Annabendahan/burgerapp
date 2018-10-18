@@ -26,6 +26,7 @@ const burger = (props) => {
 
   return (
     <div className= {classes.Burger}>
+    <h1 className={classes.Title} > MAKE YOUR OWN BURGER !</h1>
       <BurgerIngredient type="bread-top" />
       {transformedIngredients}
       <BurgerIngredient type="bread-bottom" />
