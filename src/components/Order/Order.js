@@ -15,22 +15,25 @@ for (let ingredientName in props.ingredients) {
 
 
 const ingredientOutput = ingredients.map(ig => {
-  return <span
+  if (ig.amount === 0)
+    {return null}
+  else
+  {return <p
         style= {{
           textTransform: 'capitalize',
-          display: 'inline-block',
           margin: '0 8px',
-          border: '1px solid #ccc',
           padding: '5px',
         }}
-        key= {ig.name}>  {ig.amount}  {ig.name }</span> ;
+        key= {ig.name}> <span style ={{'color': '#41a4c8', 'font-weight':'500'}}> {ig.amount} x </span> {ig.name }</p>
+        ;}
 });
 
 
 return (
 
   <div className ={classes.Order}>
-    <p> Ingredients: {ingredientOutput} </p>
+  <h3 className= {classes.Title}> ORDER </h3>
+    <p> <strong> Ingredients:</strong> {ingredientOutput}  </p>
     <p> Price : <strong> {Number.parseFloat(props.price).toFixed(2)} </strong>  € </p>
   </div>
   );

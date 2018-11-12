@@ -1,4 +1,11 @@
 .Title{
   margin-left: 45%;
-  color: black;
+  color: #41a4c8;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+
+.Orders{
+  margin: 20px 100px;
 }

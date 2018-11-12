@@ -32,8 +32,8 @@ class Orders extends Component {
 
 
     return (
-      <div>
-        <h3 className={classes.Title}> My orders </h3>
+      <div className={classes.Orders}>
+        <h3 className={classes.Title}> MY ORDERS</h3>
         {this.state.orders.map(order => (
           <Order
             key={order.id}

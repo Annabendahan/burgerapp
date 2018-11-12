@@ -20,7 +20,7 @@ const burger = (props) => {
   console.log(transformedIngredients);
 
     if (transformedIngredients.length === 0) {
-        transformedIngredients = <p> Please start adding ingredients! </p>
+        transformedIngredients = <p style={{ 'font-weight': '300'}} > Please start adding ingredients! </p>
     };
 
 

@@ -1,7 +1,9 @@
 .CheckoutSummary{
+margin-left: 25%;
+}
+
+.Buttons{
   text-align: center;
-  width: 80%;
-  margin: auto;
 }
 
 

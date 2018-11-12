@@ -3,7 +3,6 @@
   margin: auto;
   margin-top: 80px;
   margin-bottom: 20px;
-  height: 250px;
   overflow: scroll;
   text-align: center;
   font-weight: bold;
@@ -24,7 +23,7 @@
 @media(min-width: 1000px) and (min-height: 700px){
   .Burger{
     width: 700px;
-    height: 600px;
+    height: 500px;
   }
 }
 
@@ -38,4 +37,6 @@
 
 .Title{
   margin-bottom: 100px;
+  font-weight: 500;
+  color: #41a4c8;
 }

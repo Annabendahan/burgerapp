@@ -96,5 +96,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "webpack-inline-manifest-plugin": "^4.0.1"
   }
 }
